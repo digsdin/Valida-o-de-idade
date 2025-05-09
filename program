@@ -1,0 +1,35 @@
+programa {
+  funcao inicio() {
+
+    inteiro livre, dez = 10, doze = 12, quatorze = 14, dezeseis = 16, dezoito = 18, idade, onze = 11, treze = 13, quinze = 15, dezesete = 17
+
+    escreva("Qual sua idade?\n")
+    leia(idade)
+
+    se(idade >= dezoito){
+      escreva("Conteudo 18+")
+      }
+    se((idade == dezesete)ou(idade == dezeseis)){
+        escreva("Apenas conteudo até 16")
+      }
+    se((idade == quinze)ou(idade == quatorze)){
+      escreva("Apenas Conteudo até 14")
+    }
+     se((idade == treze)ou(idade == doze)){
+      escreva("Apenas Conteudo até 12")
+    }
+     se((idade == onze)ou(idade == dez)){
+      escreva("Apenas Conteudo até 10")
+    }
+     se(idade < dez){
+      escreva("Apenas conteudo L")
+    }
+    
+    
+
+     
+
+
+   }
+  }
+ 
