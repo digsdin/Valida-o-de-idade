@@ -1,0 +1,35 @@
+programa {
+  funcao inicio() {
+
+    real idade
+
+    escreva("Antes de prosseguirmos, digite sua idade: ")
+    leia(idade)
+    escreva("Sua idade é: ",idade, " anos. \n")
+
+    se(idade < 10){
+      escreva("Veja programas com classificação (L).\n")
+    }
+    senao se((10 <= idade)e(idade < 12)){
+      escreva("Veja programas até classifcação (10).\n")
+    }
+    senao se((12 <= idade)e(idade < 14)){
+      escreva("Veja programas até classificação (12). \n")
+    }
+    senao se((14 <= idade)e(idade < 16)){
+      escreva("Veja programas até a classificação (14).\n")
+    }
+    senao se((16 <= idade)e(idade <= 17)){
+      escreva("Veja programas até a classificação (16).\n")
+    }
+    senao se(18 <= idade){
+      escreva("Veja o programa que quiser! (18).\n")
+    }
+
+
+
+
+
+
+  }
+}
